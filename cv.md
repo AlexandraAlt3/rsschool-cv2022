@@ -1,6 +1,6 @@
 # Alexandra Ponkratova
 
-![Photo]()
+![Photo](C:\Users\Alexandra\Desktop\project\RSS_2022\rs_school\photoAA.jpg)
 
 ## Сontact information
 * telegram @Alexandra_Olexandra 
@@ -22,7 +22,8 @@
 * learning CSS and HTML
 
 ## Task Overview
-```function toBinary(n){
+``` 
+function toBinary(n){
     if (n==1){
         return 1;
     }
@@ -39,14 +40,12 @@
     }
     while  (c) {
         result += c % 10;
-        c = Math.floor(c / 10);
-        
+        c = Math.floor(c / 10);  
     }
     var num= Number(result);
     num = Math.floor(num / 10);
     return num;
-
-};
+    };
 ```
 ## Work experience
 ### [CodeWars (JS)] (https://www.codewars.com)

@@ -22,7 +22,7 @@
 * learning CSS and HTML
 
 ## Task Overview
-```function toBinary(n){
+``` function toBinary(n){
     if (n==1){
         return 1;
     }
@@ -45,8 +45,7 @@
     var num= Number(result);
     num = Math.floor(num / 10);
     return num;
-
-}
+};
 ```
 ## Work experience
 ### [CodeWars (JS)] (https://www.codewars.com)

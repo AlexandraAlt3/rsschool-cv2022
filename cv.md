@@ -48,3 +48,22 @@
 
 }
 ```
+## Work experience
+### [CodeWars (JS)] (https://www.codewars.com)
+* https://www.codewars.com/kata/function-1-hello-world
+* https://www.codewars.com/kata/can-we-divide-it
+* https://www.codewars.com/kata/capitalization-and-mutability
+* https://www.codewars.com/kata/century-from-year
+* https://www.codewars.com/kata/convert-a-number-to-a-string
+* https://www.codewars.com/kata/convert-a-string-to-a-number
+* https://www.codewars.com/kata/convert-to-binary
+* https://www.codewars.com/kata/even-or-odd
+
+## Education
+1. S_College of Radio Electronics
+2. Kharkiv National University - Biomedical Engineering
+3. Tyumen Industrial University - Biomedical Engineering
+4. Javascript course unfinished
+
+## English
+> Intermediate B1

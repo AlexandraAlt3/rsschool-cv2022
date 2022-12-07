@@ -1,6 +1,6 @@
 # Alexandra Ponkratova
 
-![Photo]()
+![Photo](C:\Users\Alexandra\Desktop\project\RSS_2022\rs_school\photoAA.jpg)
 
 ## Сontact information
 * telegram @Alexandra_Olexandra 

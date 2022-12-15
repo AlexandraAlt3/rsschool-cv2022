@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Poiret One', cursive;
+    src: url("assets/fonts/PoiretOne-Regular.ttf");
+    font-weight: 300;
+  }

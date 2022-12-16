@@ -54,5 +54,34 @@ html{
         color: #ccba8d;
         text-decoration: none;
       }
-
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 2;
+      /*color:rgb(255, 208, 0);*/
+    }
+    a {
+      text-decoration: none;
+    }
+    ul{
+      text-decoration: none;
+      color: blueviolet;
+      transition: color 0.5s;
+    }
+    .section ul :hover {
+      color: #ccba8d;
+      text-decoration: none;
+    }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
     
+  .section {
+    width: 50%;
+  }
+ @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }   

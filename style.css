@@ -14,22 +14,13 @@ html{
     src: url("assets/fonts/PoiretOne-Regular.ttf");
     font-weight: 300;
   }
-  .header{
-    border: 1px solid red;
-    /*background-color: rgb(110, 9, 226);*/
-    }
-    .main{
-        border: 1px solid rgb(255, 208, 0);
-        }
-    .footer{
-        border: 1px solid rgb(0, 132, 255);
-        }
    body {
         min-height: 100vh;
         margin: 10px; padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
         }
     .container {
         max-width: 1440px;
@@ -48,10 +39,10 @@ html{
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
         transition: .3s;
-        color:black;
+        color:#9400D3;
     }
     .nav-list li :hover {
-        color: #ccba8d;
+        color: #E6E6FA;
         text-decoration: none;
       }
     h1 {
@@ -72,17 +63,18 @@ html{
       transition: color 0.5s;
     }
     .section ul :hover {
-      color: #ccba8d;
+      color: #E6E6FA;
       text-decoration: none;
     }
 img{
-  width: 442px;
-  height: 591px;
+  height: 300px;
 }
 .round {
   border-radius: 500px;
   border: 3px solid rgb(3, 252, 177);
   box-shadow: 0 0 7px rgb(50, 42, 160);
+  display: block;
+	margin: 0 auto;
 }
   .main-container {
     display: flex;

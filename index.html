@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+
+   <header class = "header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#scourses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+    </div>
+   </header>
+
+   <main class = "main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <h1> Alexandra Ponkratova </h1>
+        <img src="assets/img/myfoto.jpg" alt="my foto" class='round'>
+      </section>
+      <section class="section" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li><a href="t.me/@Alexandra_Olexandra">telegram @Alexandra_Olexandra</a> </li>
+          <li>discord AlexandraP(@AlexandraAlt3)</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2>Summary</h2>
+        <p>I work in an Accreditation and Simulation Center. I make programs on robots,
+           for accredited. I also work in 1C. Responsible.
+            I work great with information. I want to study the frontend, 
+            as working with programs is interesting and versatile. 
+            I strive for professional development</p>
+      </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>learning Java Script </li>
+          <li>learning Git</li>
+          <li>learning CSS and HTML</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2>Code</h2>
+        <pre><code> 
+          function toBinary(n){
+            if (n==1){
+                return 1;
+            }
+            if (n==2){
+                return 10;
+            }
+            var c='1';
+            var result='';
+            var i=0;
+            while  (n>=1) {
+                c += Math.floor(n % 2) ; 
+                n = n / 2 ;
+                n=Math.floor(n);
+            }
+            while  (c) {
+                result += c % 10;
+                c = Math.floor(c / 10);  
+            }
+            var num= Number(result);
+            num = Math.floor(num / 10);
+            return num;
+          };
+        </code></pre>
+      </section>
+      <section class="section" id="scourses">
+        <h2>Courses</h2>
+        <ul>
+          <li>JS / Front-end. Sage 0 </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>https://www.codewars.com/kata/function-1-hello-world</li>
+          <li>https://www.codewars.com/kata/can-we-divide-it</li>
+          <li>https://www.codewars.com/kata/capitalization-and-mutability</li>
+          <li>https://www.codewars.com/kata/century-from-year</li>
+          <li>https://www.codewars.com/kata/convert-a-number-to-a-string</li>
+          <li>https://www.codewars.com/kata/convert-a-string-to-a-number</li>
+          <li>https://www.codewars.com/kata/convert-to-binary</li>
+          <li>https://www.codewars.com/kata/even-or-odd</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <ol>
+          <li>S_College of Radio Electronics</li>
+          <li>Kharkiv National University - Biomedical Engineering</li>
+          <li>Tyumen Industrial University - Biomedical Engineering</li>
+          <li>Javascript course unfinished</li>
+        </ol>
+      </section>
+      <section class="section" id="english">
+        <h2>English</h2>
+        <h4>Intermediate B1</h4>
+      </section>
+    </div>
+   </main>
+
+   <footer class = "footer">
+    <div class="container">
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="cours" class="logo"></a>
+      <a href="https://github.com/AlexandraAlt3"><img src="https://pics.freeicons.io/uploads/icons/png/10415058851582692245-512.png" alt="github" class="logo"></a>
+      <p>2022</p>
+    </div>
+   </footer> 
+</body>
+</html>

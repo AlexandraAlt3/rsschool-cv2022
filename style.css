@@ -24,7 +24,7 @@ html{
     .footer{
         border: 1px solid rgb(0, 132, 255);
         }
-    body {
+   body {
         min-height: 100vh;
         margin: 0; padding: 0;
         display: flex;
@@ -72,6 +72,15 @@ html{
       color: #ccba8d;
       text-decoration: none;
     }
+img{
+  width: 442px;
+  height: 591px;
+}
+.round {
+  border-radius: 500px;
+  border: 3px solid rgb(3, 252, 177);
+  box-shadow: 0 0 7px rgb(50, 42, 160);
+}
   .main-container {
     display: flex;
     flex-wrap: wrap;
